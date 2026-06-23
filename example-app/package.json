@@ -1,0 +1,31 @@
+{
+  "name": "capacitor-stripe-terminal-example",
+  "version": "1.0.0",
+  "description": "@capgo/capacitor-stripe-terminal Demo",
+  "type": "module",
+  "keywords": [
+    "capacitor",
+    "mobile",
+    "stripe"
+  ],
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@capacitor/core": "^8.0.0",
+    "@capacitor/ios": "^8.0.0",
+    "@capacitor/android": "^8.0.0",
+    "@capacitor/splash-screen": "^8.0.0",
+    "@capgo/capacitor-stripe-terminal": "file:..",
+    "@capgo/capacitor-updater": "^8.45.11"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.0.0",
+    "vite": "^7.3.1",
+    "typescript": "^5.9.3"
+  },
+  "author": "Capgo",
+  "license": "MPL-2.0"
+}

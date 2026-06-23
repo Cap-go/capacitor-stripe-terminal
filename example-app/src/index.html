@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>@capgo/capacitor-stripe-terminal Demo</title>
+    <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>
+      body { font-family: system-ui, sans-serif; margin: 0; padding: 16px; background: #0b1220; color: #e8eefc; }
+      main { max-width: 720px; margin: 0 auto; }
+      section { margin: 24px 0; padding: 16px; border: 1px solid #24304a; border-radius: 12px; background: #111a2e; }
+      label { display: block; margin: 12px 0 6px; font-weight: 600; }
+      textarea, input { width: 100%; box-sizing: border-box; border-radius: 8px; border: 1px solid #334466; background: #0d1528; color: #e8eefc; padding: 10px; }
+      button { margin: 8px 8px 0 0; padding: 10px 14px; border-radius: 8px; border: 0; background: #635bff; color: white; font-weight: 600; cursor: pointer; }
+      pre { white-space: pre-wrap; word-break: break-word; background: #0d1528; padding: 12px; border-radius: 8px; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>@capgo/capacitor-stripe-terminal Demo</h1>
+      <p>Discover readers and manage Stripe Terminal sessions. Your backend must provide connection tokens.</p>
+
+      <section>
+        <h2>Initialize</h2>
+        <label for="tokenUrl">Connection token endpoint</label>
+        <input id="tokenUrl" value="https://your-backend.example.com/stripe/terminal/connection-token" />
+        <button id="initializeButton" type="button">Initialize Terminal</button>
+      </section>
+
+      <section>
+        <h2>Discovery</h2>
+        <label for="discoverOptions">discoverReaders options (JSON)</label>
+        <textarea id="discoverOptions" rows="8">{
+  "type": "tap-to-pay"
+}</textarea>
+        <button id="discoverButton" type="button">Discover Readers</button>
+        <button id="cancelDiscoverButton" type="button">Cancel Discovery</button>
+      </section>
+
+      <section>
+        <h2>Output</h2>
+        <p id="statusLine">Status: Idle</p>
+        <pre id="outputLog">Awaiting interaction.</pre>
+      </section>
+    </main>
+    <script src="./js/example.js" type="module"></script>
+  </body>
+</html>
