@@ -68,7 +68,9 @@
     "rollup": "^4.53.2",
     "swiftlint": "^2.0.0",
     "typescript": "^5.9.3",
-    "@capacitor/docgen": "^0.3.1"
+    "@capacitor/docgen": "^0.3.1",
+    "prettier-pretty-check": "^0.2.0",
+    "eslint-plugin-import": "^2.31.0"
   },
   "peerDependencies": {
     "@capacitor/core": ">=8.0.0"
