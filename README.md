@@ -1,22 +1,67 @@
-<p align="center"><br><a href="https://capgo.app/"><img src="https://raw.githubusercontent.com/Cap-go/capacitor-plugin-template/main/assets/capgo_banner.png" width="128" height="128" /></a></p>
-
-<h3 align="center">Capgo Stripe Plugin</h3>
-<p align="center"><strong>Official @capgo Capacitor plugin — maintained fork of @capacitor-community/stripe with bug fixes and latest SDK.</strong></p>
-
 # @capgo/capacitor-stripe-terminal
 
-Stripe SDK bindings for Capacitor Applications.
+<a href="https://capgo.app/"><img src="https://capgo.app/readme-banner.svg?repo=Cap-go/capacitor-stripe-terminal" alt="Capgo - Instant updates for Capacitor" /></a>
+
+<div align="center">
+  <h2>
+    <a href="https://capgo.app/?ref=plugin_stripe_terminal"> ➡️ Get Instant updates for your App with Capgo</a>
+  </h2>
+  <h2>
+    <a href="https://capgo.app/consulting/?ref=plugin_stripe_terminal"> Missing a feature? We'll build the plugin for you 💪</a>
+  </h2>
+</div>
+
+Capacitor plugin for Stripe Terminal — connect readers, collect in-person payments, and manage Tap to Pay, Bluetooth, USB, and internet readers on iOS and Android.
+
+## Documentation
+
+The most complete documentation is available here: https://capgo.app/docs/plugins/stripe-terminal/
+
+## Compatibility
+
+| Plugin version | Capacitor compatibility | Maintained |
+| -------------- | ----------------------- | ---------- |
+| v8.*.*         | v8.*.*                  | ✅         |
+| v7.*.*         | v7.*.*                  | On demand  |
+
+> **Note:** The major version of this plugin follows the major version of Capacitor. Use the version that matches your Capacitor installation (e.g., plugin v8 for Capacitor 8). Only the latest major version is actively maintained.
+
+## Install
+
+You can use our AI-Assisted Setup to install the plugin. Add the Capgo skills to your AI tool using the following command:
+
+```bash
+npx skills add https://github.com/cap-go/capacitor-skills --skill capacitor-plugins
+```
+
+Then use the following prompt:
+
+```text
+Use the `capacitor-plugins` skill from `cap-go/capacitor-skills` to install the `@capgo/capacitor-stripe-terminal` plugin in my project.
+```
+
+If you prefer Manual Setup, install the plugin by running the following commands and follow the platform-specific instructions below:
+
+```bash
+# Install (choose one)
+npm install @capgo/capacitor-stripe-terminal
+pnpm add @capgo/capacitor-stripe-terminal
+yarn add @capgo/capacitor-stripe-terminal
+bun add @capgo/capacitor-stripe-terminal
+
+# Then sync Capacitor (choose one)
+npx cap sync
+pnpm exec cap sync
+yarn cap sync
+bunx cap sync
+```
+
+## Platform setup
+
 We have confirmed that it works well in the demo project. Refer to:
 
 - Tap to Pay / Internet / Bluetooth demo: https://github.com/Cap-go/capacitor-stripe-terminal/tree/main/demo/angular
 - App on Devices demo: https://github.com/Cap-go/capacitor-stripe-terminal/tree/main/demo/app-on-devices
-
-## Install
-
-```bash
-npm install @capgo/capacitor-stripe-terminal
-npx cap sync
-```
 
 ### Web
 
