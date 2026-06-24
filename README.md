@@ -13,6 +13,16 @@
 
 Capacitor plugin for Stripe Terminal — connect readers, collect in-person payments, and manage Tap to Pay, Bluetooth, USB, and internet readers on iOS and Android.
 
+## Why this plugin
+
+This plugin is a maintained fork of [@capacitor-community/stripe](https://github.com/capacitor-community/stripe). Capgo split the community project into focused packages — each with its own docs, example app, and CI.
+
+We track open issues and pull requests in the community repository, merge relevant fixes into our repos, and ship them on current Stripe SDKs. Our goal is to be more reactive than the community maintainers when bugs land or platforms change.
+
+This package covers **Stripe Terminal** — Tap to Pay, Bluetooth, USB, and internet readers.
+
+If you use the community package today, this is the maintained upgrade path from the community package.
+
 ## Documentation
 
 The most complete documentation is available here: https://capgo.app/docs/plugins/stripe-terminal/
