@@ -1,25 +1,37 @@
 # @capgo/capacitor-stripe-terminal
 
-<a href="https://capgo.app/"><img src="https://capgo.app/readme-banner.svg?repo=Cap-go/capacitor-stripe-terminal" alt="Capgo - Instant updates for Capacitor" /></a>
+Accept in-person payments in your Capacitor app with Stripe Terminal: Tap to Pay on the phone, plus Bluetooth, USB and internet card readers on iOS and Android.
+
+<a href="https://capgo.app/?ref=plugin_stripe_terminal"><img src="https://capgo.app/readme-banner.svg?repo=Cap-go/capacitor-stripe-terminal" alt="Capgo - Instant updates for Capacitor" /></a>
 
 <div align="center">
-  <h2>
-    <a href="https://capgo.app/?ref=plugin_stripe_terminal"> ➡️ Get Instant updates for your App with Capgo</a>
-  </h2>
-  <h2>
-    <a href="https://capgo.app/consulting/?ref=plugin_stripe_terminal"> Missing a feature? We'll build the plugin for you 💪</a>
-  </h2>
+  <p><b>Capgo</b>: open-source live updates for Ionic and Capacitor apps. Ship OTA fixes and features instantly, without waiting for app store review.</p>
+  <h2><a href="https://capgo.app/register/?ref=plugin_stripe_terminal">➡️ Get started for free</a></h2>
+  <p>14-day unlimited free trial. No credit card required</p>
+  <p><a href="https://capgo.app/consulting/?ref=plugin_stripe_terminal">Missing a feature? We'll build the plugin for you 💪</a></p>
 </div>
 
-Capacitor plugin for Stripe Terminal — connect readers, collect in-person payments, and manage Tap to Pay, Bluetooth, USB, and internet readers on iOS and Android.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Cap-go/capacitor-stripe-terminal/main/.github/assets/readme-hero.webp" alt="@capgo/capacitor-stripe-terminal for Capacitor apps" width="300" />
+</p>
+
+## Key features
+
+- **Setup**: `initialize()` with a connection token endpoint or `setConnectionToken()`.
+- **Readers**: `discoverReaders()`, `connectReader()`, `getConnectedReader()` and `disconnectReader()`.
+- **Payments**: `collectPaymentMethod()`, `confirmPaymentIntent()` and `cancelCollectPaymentMethod()`.
+- **Reader display and updates**: `setReaderDisplay()` shows a cart, plus `installAvailableUpdate()` for reader software.
+- **Testing**: `setSimulatorConfiguration()` for simulated readers and cards.
+- **Tap to Pay UX**: `setTapToPayUxConfiguration()` customizes the Tap to Pay screen.
+- **Platforms**: iOS, Android and Web. Web uses Stripe Terminal JS and supports internet readers only.
 
 ## Why this plugin
 
-This plugin is a maintained fork of [@capacitor-community/stripe](https://github.com/capacitor-community/stripe). Capgo split the community project into focused packages — each with its own docs, example app, and CI.
+This plugin is a maintained fork of [@capacitor-community/stripe](https://github.com/capacitor-community/stripe). Capgo split the community project into focused packages, each with its own docs, example app, and CI.
 
 We track open issues and pull requests in the community repository, merge relevant fixes into our repos, and ship them on current Stripe SDKs. Our goal is to be more reactive than the community maintainers when bugs land or platforms change.
 
-This package covers **Stripe Terminal** — Tap to Pay, Bluetooth, USB, and internet readers.
+This package covers **Stripe Terminal**, Tap to Pay, Bluetooth, USB, and internet readers.
 
 If you use the community package today, this is the maintained upgrade path from the community package.
 
