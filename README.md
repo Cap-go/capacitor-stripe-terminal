@@ -22,7 +22,7 @@ Accept in-person payments in your Capacitor app with Stripe Terminal: Tap to Pay
 - **Payments**: `collectPaymentMethod()`, `confirmPaymentIntent()` and `cancelCollectPaymentMethod()`.
 - **Reader display and updates**: `setReaderDisplay()` shows a cart, plus `installAvailableUpdate()` for reader software.
 - **Testing**: `setSimulatorConfiguration()` for simulated readers and cards.
-- **Tap to Pay UX**: `setTapToPayUxConfiguration()` customizes the Tap to Pay screen.
+- **Tap to Pay UX on Android**: `setTapToPayUxConfiguration()` customizes the Tap to Pay screen.
 - **Platforms**: iOS, Android and Web. Web uses Stripe Terminal JS and supports internet readers only.
 
 ## Why this plugin
