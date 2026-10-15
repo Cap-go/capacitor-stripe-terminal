@@ -27,6 +27,8 @@ export enum DeviceType {
   unknown = 'unknown',
 }
 
+// Several devices intentionally share the same image group, so duplicate values are expected here.
+/* eslint-disable @typescript-eslint/no-duplicate-enum-values */
 /**
  * This group is useful for pick image.
  * Reference: https://github.com/stripe/stripe-terminal-ios/blob/fc571ab441b14639243a11d19d8f62bbe93feea5/Example/Example/ReaderHeaderView.swift#L95-L113
@@ -47,6 +49,7 @@ export enum DeviceGroup {
   tapToPayDevice = 'tapToPayDevice',
   unknown = 'unknown',
 }
+/* eslint-enable @typescript-eslint/no-duplicate-enum-values */
 
 export enum UpdateTimeEstimate {
   LessThanOneMinute = 'LESS_THAN_ONE_MINUTE',
